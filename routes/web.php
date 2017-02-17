@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('/calc','helloContoller@index');
 Route::post('/calc','helloContoller@add');
+
+Route::get('/mul','mulController@index');
+Route::post('/product','mulController@mul');
